@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    background-color: #e4f6ff;
+    color: black;
+}
+
+body {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+div {
+    height: calc(100% - 20px - 77px);
+    padding-top: 4px
+}
+
+p,
+ul {
+    padding: 0 8px;
+    margin: 0;
+}
+
+ul {
+    margin-top: 4px;
+}
+
+li {
+    list-style-position: inside;
+}
